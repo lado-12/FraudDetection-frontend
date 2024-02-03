@@ -9,8 +9,9 @@ import Footer from './components/Footer'
 import Contact from './pages/Contact'
 
 import Chat from './pages/Chat'
-
-
+import Dynamic from './pages/Dynamic'
+import FraudDetection from './components/FraudDetection'
+import Services from './pages/Services'
 
 
 function App() {
@@ -19,20 +20,27 @@ function App() {
   return (
 
     <div>
-    
-      <Navbar/>
-       <Routes>
+
+      <Navbar />
+
+      <Routes>
+        <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/chat' element={<Chat />} />
         <Route path='/card' element={<Card />} />
         <Route path='/slider' element={<Slider />} />
-        
-      
+        <Route path='/frauddetection' element={<FraudDetection/>}/>
+        <Route path='/services' element={<Services/>}/>
+        <Route path='/dynamic/:id' element={<Dynamic/>}/>
+
+
+
+
       </Routes>
 
-      <Footer/>
+      <Footer />
 
     </div>
   )
