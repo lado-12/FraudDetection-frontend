@@ -12,6 +12,8 @@ import Chat from './pages/Chat'
 import Dynamic from './pages/Dynamic'
 import FraudDetection from './components/FraudDetection'
 import Services from './pages/Services'
+import Detect from './components/Detect'
+import ChatBot from './components/ChatBot'
 
 
 function App() {
@@ -34,7 +36,8 @@ function App() {
         <Route path='/frauddetection' element={<FraudDetection/>}/>
         <Route path='/services' element={<Services/>}/>
         <Route path='/dynamic/:id' element={<Dynamic/>}/>
-
+        <Route path='/detect' element={<Detect/>}/>
+        <Route path='/chatbot' element={<ChatBot/>}/>
 
 
 

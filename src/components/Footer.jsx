@@ -3,29 +3,29 @@ import React from 'react'
 function Footer() {
     return (
         <>
+<div className='bg-gray-700'>
 
-
-            <footer class="bg-gradient-to-r from-violet-300 to-fuchsia-300  dark:bg-gray-900 text-center text-2xl mt-20 rounded-tl-full rounded-tr-full">
-                <div class=" ml-56 mx-auto w-full max-w-screen-xl">
+            <footer class="bg-gradient-to-r from-gray-900 to-slate-900  dark:bg-gray-900 text-center text-2xl  rounded-tl-full rounded-tr-full font-serif border-4 border-white ">
+                <div class=" ml-56 mx-auto max-w-screen-xl">
                     <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
                         <div>
-                            <h2 class="mb-6 text-sm font-semibold text-red-900 uppercase dark:text-white">Company</h2>
+                            <h2 class="mb-6 font-semibold text-gray-200 uppercase  dark:text-white">Company</h2>
                             <ul class=" dark:text-white-400 font-medium">
                                 <li class="mb-4">
-                                    <a href="/about" class=" hover:underline">About</a>
+                                    <a href="/about" class=" hover:underline text-gray-300">About</a>
                                 </li>
                                
                             </ul>
                         </div>
                         <div>
-                            <h2 class="mb-6 text-sm font-semibold text-red-900 uppercase dark:text-white">Help center</h2>
-                            <ul class=" dark:text-gray-400 font-medium">
+                            <h2 class="mb-6  font-semibold text-gray-200 uppercase dark:text-white">Help center</h2>
+                            <ul class=" dark:text-gray-400 font-serif text-gray-300">
                                
-                                <li class="mb-4">
-                                    <a href="#" class="hover:underline">Twitter</a>
+                                <li class="mb-4 ">
+                                    <a href="#" class="hover:underline ">Twitter</a>
                                 </li>
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Facebook</a>
+                                    <a href="#" class="hover:underline ">Facebook</a>
                                 </li>
                                 <li class="mb-4">
                                     <a href="/contact" class="hover:underline">Contact Us</a>
@@ -33,9 +33,9 @@ function Footer() {
                             </ul>
                         </div>
                         <div>
-                            <h2 class="mb-6 text-sm font-semibold text-red-900 uppercase dark:text-white">Legal</h2>
-                            <ul class=" dark:text-gray-400 font-medium">
-                                <li class="mb-4">
+                            <h2 class="mb-6  font-semibold text-gray-200 uppercase dark:text-white">Legal</h2>
+                            <ul class=" dark:text-gray-300 font-serif text-gray-300">
+                                <li class="mb-4 font-serif">
                                     <a href="#" class="hover:underline">Privacy Policy</a>
                                 </li>
                                 <li class="mb-4">
@@ -76,7 +76,7 @@ function Footer() {
                     </div>
                 </div>
             </footer>
-
+            </div>
         </>
     )
 }

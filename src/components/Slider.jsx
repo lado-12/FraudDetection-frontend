@@ -25,7 +25,7 @@ export default function Slider() {
         </div>
             </div>
             <div>
-            <div className='flex flex-row'>
+            <div className='flex flex-row mt-20'>
           <Card title={<b>"Behavioral Analysis"</b>} Image={Image5} description={" Understanding typical user behavior is crucial for detecting anomalies. Behavioral analysis techniques monitor deviations from normal patterns, such as unusual transaction amounts, frequencies, or locations, to flag potentially fraudulent actions."}/>
           <Card title={<b>"Collaborative Efforts"</b>} Image={Image6} description={"Collaboration between industry stakeholders, law enforcement agencies, and regulatory bodies facilitates information sharing and intelligence gathering, enhancing the collective ability to combat fraud across sectors and jurisdictions"}/>
           <Card title={<b>"Artificial Intelligence (AI)"</b>} Image={Image7} description={"AI-powered fraud detection systems leverage machine learning algorithms to analyze data and identify fraudulent patterns with high accuracy and speed. "}/>
@@ -33,7 +33,7 @@ export default function Slider() {
 
             </div>
             <div>
-            <div className='flex flex-row'>
+            <div className='flex flex-row mt-20'>
           <Card title={<b>"Predictive Analytics"</b>} Image={Image8} description={"Predictive modeling techniques forecast future fraudulent activities based on historical data, enabling proactive measures to mitigate risks and prevent potential losses."}/>
           <Card title={<b>"Blockchain Technology"</b>} Image={Image9} description={"Blockchain's immutable and decentralized ledger enhances transparency and security in financial transactions, making it more challenging for fraudsters to manipulate records or engage in fraudulent activities undetected."}/>
           <Card title={<b>"Natural Language Processing (NLP)"</b>} Image={Image3} description={" NLP algorithms analyze text data from various sources, such as emails, chat logs, and social media, to detect fraudulent communications or phishing attempts, thereby reducing the likelihood of falling victim to social engineering attacks."}/>
