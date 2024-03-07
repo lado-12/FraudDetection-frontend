@@ -43,7 +43,7 @@ const ChatBot = () => {
       {
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer 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',
+          'Authorization': 'Bearer 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',
         },
       }
     );
